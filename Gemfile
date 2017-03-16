@@ -44,9 +44,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 
 # Used for encrypting User passwords
- gem 'bcrypt'
+gem 'bcrypt'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '~> 3.5'
   gem 'shoulda'
 end
